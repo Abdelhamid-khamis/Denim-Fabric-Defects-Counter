@@ -4,7 +4,7 @@ This project is a simple web application designed to help inspectors at Sharabat
 
 ## Live Demo
 
-Check out the live demo of the calculator: [Defect Counter Live Demo](https://defects-counter.netlify.app/){:target="_blank"}
+Check out the live demo of the calculator: [Defect Counter Live Demo](https://defects-counter.netlify.app/)
 
 ## Table of Contents
 - [Features](#features)
