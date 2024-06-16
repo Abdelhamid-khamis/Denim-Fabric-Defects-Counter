@@ -2,6 +2,10 @@
 
 This project is a simple web application designed to help inspectors at Sharabati Denim manufacturing company count defects in denim fabric. The counted defects can then be manually entered into the inspection module of the Sharabati Denim ERP system.
 
+## Live Demo
+
+Check out the live demo of the calculator: [Defect Counter Live Demo](https://defects-counter.netlify.app/)
+
 ## Table of Contents
 - [Features](#features)
 - [Usage](#usage)
