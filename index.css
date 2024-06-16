@@ -1,0 +1,86 @@
+body {
+    background-image: url("yarn.jpeg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    /* Removes default margin around the body. */
+    display: flex;
+    /* Uses Flexbox layout for child elements. */
+    flex-direction: column;
+    /* Arranges child elements in a column. */
+    justify-content: center;
+    /* Centers child elements vertically. */
+    align-items: center;
+    /* Centers child elements horizontally. */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    /* Sets a semi-transparent white background for better readability. */
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    /* Adds padding inside the container for better spacing. */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow for a better visual effect. */
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333;
+    /* Sets a dark gray color for the header text for better contrast. */
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    /* Sets a dark gray color for the counter text for better contrast. */
+}
+
+button {
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Changes the cursor to a pointer when hovering over the button. */
+    transition: background-color 0.3s ease;
+    /* Adds a smooth transition for the background color change. */
+}
+
+#increment-btn {
+    background: #D0021B;
+    /* Uses a bright red background color for better contrast. */
+}
+
+#save-btn {
+    background: #4CAF50;
+    /* Uses a green background color with better contrast. */
+}
+
+#increment-btn:hover {
+    background: #FF5A5F;
+    /* Changes the background color to a lighter red when hovering over the button. */
+}
+
+#save-btn:hover {
+    background: #81C784;
+    /* Changes the background color to a lighter green when hovering over the button. */
+}
+
+#save-el {
+    font-weight: bold;
+    color: #333;
+    /* Sets a dark gray color for the saved entries text for better contrast. */
+    margin-top: 20px;
+}
